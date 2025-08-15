@@ -12,6 +12,7 @@
             list2.Add(4);
             list2.Add(3);
             list2.Add(5);
+            list2.Add(12);
             list1.AddRange(list2);
             list1.Sort();
             foreach (int i in list1)
